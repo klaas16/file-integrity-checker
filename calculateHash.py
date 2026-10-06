@@ -1,6 +1,6 @@
 import hashlib
 
-def calculateHash(text):
+def calculate_hash(text):
     print("Calculating Hash...")
     m = hashlib.sha256()
     text = text.encode('utf-8')
